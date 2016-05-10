@@ -4,7 +4,8 @@ GENERAL
 
 
 body{
-  font-family: 'Open Sans', sans-serif
+  font-family: 'Lobster Two', cursive;
+  font-size: 1.5em;
 }
 
 
@@ -43,7 +44,7 @@ header {
 }
 
 h1 {
-  font-family: 'Changa One', sans-serif;
+  font-family: 'Lobster', cursive;
   margin: 15px 0;
   font-size: 1.75em;
   font-weight: normal;
@@ -51,7 +52,7 @@ h1 {
 }
 
 h2 {
-  font-size: 0.75em;
+  font-size: 1.5em;
   margin: -5px 0 0;
   font-weight: normal;
 }
@@ -105,26 +106,50 @@ footer {
 /*****************************
 PAGE PORTFOLIO
 ******************************/
+.tech-section {
+  display: block;
+  margin: 50px
+  width: 100%;
+}
 
-#gallery {
+#tech-header {
+  color: #999;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+#tech-list {
+  display: block;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
-#gallery li {
+#tech-list li {
   float: left;
-  width: 45%;
+  width: 11%;
   margin: 2.5%;
   background-color: #f5f5f5;
   color: #bdc4c7;
 }
 
-#gallery li a p {
+#tech-list li img {
+  max-width: 100px;
+  height: 100px;
+}
+
+#tech-list li p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
   color: #bdc3c7;
+}
+
+.example {
+  display: block;
+  font-size: 1.25em;
+  padding: 100px 0;
+  margin: 400px 200px 10px 30px;
 }
 
 
@@ -136,7 +161,7 @@ PAGE ABOUT
   display: block;
   max-width: 150px;
   margin: 0 auto 30px;
-  border-radius: 100%;
+  border-radius: 4%;
 }
 
 /*****************************
@@ -154,7 +179,7 @@ PAGE Contact
   display: block;
   min-height: 20px;
   background-repeat: no-repeat;
-  background-size: 20px 20px;
+  background-size: 29px 30px;
   padding: 0 0 0 30px;
   margin: 0 0 10px;
 }
@@ -171,6 +196,18 @@ PAGE Contact
   background-image: url('../img/twitter.png')
 }
 
+.contact-info li.github a {
+  background-image: url('../img/github-icon.png')
+}
+
+.contact-info li.linkedin a {
+  background-image: url('../img/linkedin_icon.png')
+}
+
+.contact-info li.googleplus a {
+  background-image: url('../img/goodleplusicon.png')
+}
+
 /****************************
 COLORS
 *****************************/
@@ -181,15 +218,15 @@ body {
   color: #999;
 }
 
-/* green header */
+/* header */
 header {
-  background: #6ab47b;
-  border-color: #599a68;
+  background: #2E9AE8;
+  border-color: #172F73;
 }
 
 /* nav background on mobile */
 nav {
-  background: #599a68;
+  background: #244CB8;
 }
 
 /*logo text*/
@@ -199,7 +236,7 @@ h1, h2 {
 
 /*links*/
 a {
-  color: #6ab47b;
+  color: #244CB8;
 }
 
 /* nav link */
@@ -209,7 +246,7 @@ nav a, nav a:visited {
 
 /* selected nav link */
 nav a.selected, nav a:hover {
-  color: #32673f;
+  color: #244CB8;
 }
 
   
